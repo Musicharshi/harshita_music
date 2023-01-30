@@ -29,8 +29,6 @@ UPSTREAM_REPO = getenv(
 START_IMG_URL = getenv(
     "START_IMG_URL", )
 
-OWNER_USERNAME = getenv(","MR_HARSH_OP")
-
 SUPPORT_GROUP = getenv(","https://t.me/alone_support")
 SUPPORT_CHANNEL = getenv(","https://t.me/alone_support")
 
