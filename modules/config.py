@@ -24,7 +24,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","harsh")
 OWNER_ID = list(map(int, getenv("OWNER_ID","5897579715")
 
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO",https://github.com/Musicharshi/musicharshi")
+    "UPSTREAM_REPO","https://github.com/Musicharshi/musicharshi")
 
 START_IMG_URL = getenv(
     "START_IMG_URL", )
