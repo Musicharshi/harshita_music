@@ -29,9 +29,6 @@ UPSTREAM_REPO = getenv(
 START_IMG_URL = getenv(
     "START_IMG_URL", )
 
-SUPPORT_GROUP = getenv(","https://t.me/alone_support")
-SUPPORT_CHANNEL = getenv(","https://t.me/alone_support")
-
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5897579715").split()))
 aiohttpsession = aiohttp.ClientSession()
